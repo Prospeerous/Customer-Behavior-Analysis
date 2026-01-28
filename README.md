@@ -1,13 +1,13 @@
-#  Customer Behavior Analysis Project
+# Customer Behavior Analysis Project
 
-##  Project Overview
+## Project Overview
 This project analyzes customer shopping behavior using transactional data to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior.
 
 The project follows a complete **data analytics workflow**, from data cleaning and exploratory analysis to SQL querying, dashboard development, and business reporting.
 
 ---
 
-##  Dataset
+## Dataset
 - **Source:** Kaggle
 - **Records:** 3,900 customer purchases
 - **Features:** 18 columns
@@ -19,16 +19,16 @@ The project follows a complete **data analytics workflow**, from data cleaning a
 
 ---
 
-##  Tools & Technologies
+## Tools & Technologies
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn
-- **SQL:** PostgreSQL 
-- **Business Intelligence:** Power BI 
+- **SQL:** PostgreSQL
+- **Business Intelligence:** Power BI
 - **Documentation:** Analytical report & presentation
 - **Version Control:** Git & GitHub
 
 ---
 
-##  Project Workflow
+## Project Workflow
 
 ### 1️. Data Cleaning & Preparation (Python)
 - Imported raw dataset from Kaggle
@@ -60,40 +60,36 @@ Key business questions addressed include:
 - Relationship between repeat purchases and subscriptions
 - Top-performing products by category and rating
 
- **SQL Scripts:**  
-All SQL queries used in this analysis are available in the [`customer_analysis_queries.sql`](customer_analysis_queries.sql)
-
+**SQL Scripts:**  
+All SQL queries used in this analysis are available in the [customer-behaviour-analysis-sql.sql](customer-behaviour-analysis-sql.sql)
 
 ---
 
 ### 4️. Data Visualization (Power BI)
 An interactive Power BI dashboard was developed locally to present insights in a clear and actionable manner.
 
- **Dashboard File:**  
-The Power BI dashboard file is included in the  [`customer_behavior_dashboard.pbix`](customer_behavior_dashboard.pbix).
- 
-Key dashboard screenshots are included in the screenshots to showcase major insights and visualizations.
+**Dashboard File:**  
+The Power BI dashboard file is included in the [customer-behaviour-analysis-dashboard.pbix](customer-behaviour-analysis-dashboard.pbix)
+
+Key dashboard screenshots are included in the repository to showcase major insights and visualizations.
 
 ---
 
 ### 5. Project Report
-
 A detailed analytical report documenting the methodology, analysis, and insights is available here:
 
- [`customer_behavior_analysis_report.pdf`](customer_behavior_analysis_report.pdf)
- 
-
+[Customer-Behaviour-Analysis-Report.pdf](Customer-Behaviour-Analysis-Report.pdf)
 
 ---
-### 6. Presentation Slides  
+
+### 6️. Presentation Slides  
 Executive-level presentation slides summarizing the findings and recommendations:
 
- [`customer_behavior_analysis_slides.pptx`](customer_behavior_analysis_slides.pptx)
+[Customer-Behavior-Analysis-Presentation.pdf](Customer-Behavior-Analysis-Presentation.pdf)
 
+---
 
- ---
-
-##  Key Insights
+## Key Insights
 - Subscribers have higher average purchase values than non-subscribers
 - Loyal customers contribute a significant portion of total revenue
 - Certain products rely heavily on discounts to drive sales
@@ -102,7 +98,7 @@ Executive-level presentation slides summarizing the findings and recommendations
 
 ---
 
-##  Business Recommendations
+## Business Recommendations
 - Strengthen subscription programs with exclusive benefits
 - Introduce loyalty incentives for repeat customers
 - Review discount strategies to protect profit margins
@@ -114,37 +110,31 @@ Executive-level presentation slides summarizing the findings and recommendations
 ## Repository Structure
 ```
 Customer-Behavior-Analysis/
-
-├── README.md
+├── customer_shopping_behavior.csv
+├── customer-behaviour-analysis.ipynb
+├── customer-behaviour-analysis-sql.sql
+├── customer-behaviour-analysis-dashboard.pbix
+├── Customer-Behaviour-Analysis-Report.pdf
+├── Customer-Behavior-Analysis-Presentation.pdf
 ├── LICENSE
-├── customer behavior analysis.csv
-├── customer behavior analysis.ipynb
-├── customer_analysis_queries.sql
-├── customer behavior analysis dashboard.pbix
-├── customer_behavior_analysis_report.pdf
-├── customer behavior analysis presentation.pptx
-
-
-
+├── README.md
 ```
 ---
 
-##  How to Run This Project Locally
-1. Review the cleaned dataset in the `data/` folder
+## How to Run This Project Locally
+1. Review the cleaned dataset (`customer_shopping_behavior.csv`)
 2. Load the dataset into PostgreSQL using the provided schema or scripts
-3. Execute SQL queries from the `/sql` directory
+3. Execute SQL queries from the `.sql` file
 4. Open the Power BI `.pbix` file to explore the dashboard
 5. Read the report and presentation for detailed insights
 
 ---
 
-##  Contact
-**Author:** Abigael Wambui 
-**Field:** Data Analytics / Data Science 
-**Email:** abigaelwambui1@gmail.com
- 
+## Contact
+**Author:** Abigael Wambui  
+**Field:** Data Analytics / Data Science  
+**Email:** [abigaelwambui1@gmail.com](mailto:abigaelwambui1@gmail.com)
 
 ---
 
- *This project demonstrates an end-to-end customer behavior analysis workflow using real-world data.*
-
+*This project demonstrates an end-to-end customer behavior analysis workflow using real-world data.*
