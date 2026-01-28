@@ -114,11 +114,17 @@ Executive-level presentation slides summarizing the findings and recommendations
 ## Repository Structure
 ```
 Customer-Behavior-Analysis/
-├── customer_behavior_dashboard.pbix
+
 ├── README.md
-├── customer_behavior_analysis_report.pdf
-├── customer_behavior_analysis_slides.pptx
+├── LICENSE
+├── customer behavior analysis.csv
+├── customer behavior analysis.ipynb
 ├── customer_analysis_queries.sql
+├── customer behavior analysis dashboard.pbix
+├── customer_behavior_analysis_report.pdf
+├── customer behavior analysis presentation.pptx
+
+
 
 ```
 ---
