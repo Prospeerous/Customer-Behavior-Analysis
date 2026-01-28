@@ -112,6 +112,7 @@ Executive-level presentation slides summarizing the findings and recommendations
 ---
 
 ## Repository Structure
+```
 Customer-Behavior-Analysis/
 ├── customer_behavior_dashboard.pbix
 ├── README.md
@@ -119,7 +120,7 @@ Customer-Behavior-Analysis/
 ├── customer_behavior_analysis_slides.pptx
 ├── customer_analysis_queries.sql
 
-
+```
 ---
 
 ##  How to Run This Project Locally
